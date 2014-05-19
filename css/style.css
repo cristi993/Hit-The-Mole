@@ -1,0 +1,109 @@
+canvas {
+    margin-left: 10em;
+    display: block;
+    height: 500px;
+    width: 480px;
+    float: left;
+}
+
+#scorul{
+    float: right;
+    margin-right: 15em;
+}
+
+
+h1, h2 , p{
+    text-align:center;
+    animation: culoare 5s infinite;
+    -moz-animation: culoare 5s infinite;
+    -webkit-animation: culoare 5s infinite;
+    -o-animation: culoare 5s infinite;
+    -ms-animation: culoare 5s infinite;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+    font-size: 2.5em;
+    font-style: italic;
+    color: red;
+}
+h2 , p{
+    font-style: normal;
+}
+
+.ceva{
+    animation-play-state:paused;
+    -webkit-animation-play-state:paused; /* Safari and Chrome */
+    -o-animation-play-state:paused;
+    -ms-animation-play-state:paused;
+    -mozilla-animation-play-state:paused;
+    font-size: 1em;
+    
+}
+
+#alb{
+    color: gray;
+}
+#negru{
+    font-weight: bold;
+}
+#maro{
+    color: brown;
+}
+#aur{
+    color: gold;
+}
+
+@keyframes culoare{
+    0% {color: black;}
+    14%{color: orange;}
+    28% {color: yellow;}
+    42% {color: green;}
+    57%{color: blue;}
+    71% {color: magenta;}
+    85%{color: cyan;}
+    100%{color: red;}
+}
+
+@-moz-keyframes culoare{
+    0% {color: black;}
+    14%{color: orange;}
+    28% {color: yellow;}
+    42% {color: green;}
+    57%{color: blue;}
+    71% {color: magenta;}
+    85%{color: cyan;}
+    100%{color: red;}
+}
+
+@-webkit-keyframes culoare{
+    0% {color: black;}
+    14%{color: orange;}
+    28% {color: yellow;}
+    42% {color: green;}
+    57%{color: blue;}
+    71% {color: magenta;}
+    85%{color: cyan;}
+    100%{color: red;}
+}
+
+@-o-keyframes culoare{
+    0% {color: black;}
+    14%{color: orange;}
+    28% {color: yellow;}
+    42% {color: green;}
+    57%{color: blue;}
+    71% {color: magenta;}
+    85%{color: cyan;}
+    100%{color: red;}
+}
+
+@-ms-keyframes culoare{
+    0% {color: black;}
+    14%{color: orange;}
+    28% {color: yellow;}
+    42% {color: green;}
+    57%{color: blue;}
+    71% {color: magenta;}
+    85%{color: cyan;}
+    100%{color: red;}
+}
